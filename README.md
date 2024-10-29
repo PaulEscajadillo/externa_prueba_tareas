@@ -14,4 +14,5 @@
 ## Acerca de
 Es una aplicación simple que permite hacer CRUD sobre tareas, tanto desde el frontend generado en Blade como mediante Rest API
 
-## Autor Paul Escajadillo
+## Autor 
+Paul Escajadillo
