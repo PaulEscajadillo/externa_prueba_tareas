@@ -28,7 +28,7 @@ class TareaAPIController extends Controller
 
     }
 
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
         $request->validate([
             'dni' => 'required|digits:8',
@@ -38,15 +38,15 @@ class TareaAPIController extends Controller
             'status' => 'required|max:20',
         ]);
 
-        $tarea = Tarea::find($id);
+        $tarea = Tarea::find($request->id);
         $tarea->update($request->all());
 
         return response()->json(["ok"=>true, "tarea"=>$tarea], 200);    
     }
 
-    public function destroy($id)
+    public function destroy($request)
     {
-        $tarea = Tarea::find($id);
+        $tarea = Tarea::find($request->id);
         $tarea->delete();
 
         return response()->json(["ok"=>true], 200);
