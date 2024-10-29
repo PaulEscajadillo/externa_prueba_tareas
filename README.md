@@ -16,3 +16,10 @@ Es una aplicación simple que permite hacer CRUD sobre tareas, tanto desde el fr
 
 ## Autor 
 Paul Escajadillo
+
+## Instrucciones
+Se debe realizar las respectiva ejecución de migraciones, mediante 
+$ php artisan migrate
+
+La inyección de data de prueba mediante seeders, no es relavante. Se tenía planeado utilizar autenticación, para lo cual un primer usuario de prueba era necesario, pero se mantuvo la aplicación lo más simple.
+
