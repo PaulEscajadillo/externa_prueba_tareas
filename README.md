@@ -34,19 +34,19 @@ Muestra la tarea con el id enviado
 Post: http://127.0.0.1:8000/api/tareas/store
 Graba la tarea
 Recibe:
-dni: 8 caracteres numéricos
-title: máximo 100 caracteres alfanuméricos
-description: máximo 500 caracteres alfanuméricos
-expiration: fecha con formato yyyy-mm-dd
+dni: 8 caracteres numéricos, 
+title: máximo 100 caracteres alfanuméricos, 
+description: máximo 500 caracteres alfanuméricos, 
+expiration: fecha con formato yyyy-mm-dd, 
 status: máximo 20 caracteres alfanuméricos
 
 Put: http://127.0.0.1:8000/api/tareas/update
 Actualiza la tarea con el id pasado en el request
 Recibe:
-dni: 8 caracteres numéricos
-title: máximo 100 caracteres alfanuméricos
-description: máximo 500 caracteres alfanuméricos
-expiration: fecha con formato yyyy-mm-dd
+dni: 8 caracteres numéricos, 
+title: máximo 100 caracteres alfanuméricos, 
+description: máximo 500 caracteres alfanuméricos, 
+expiration: fecha con formato yyyy-mm-dd, 
 status: máximo 20 caracteres alfanuméricos
 
 Delete: http://127.0.0.1:8000/api/tareas/destroy
